@@ -9,5 +9,5 @@ This app allows you to sort your files.
     - filename
     - extension
 2. Folder structure:
-    - create a path that respect variables and keywords
+    - create a path that respects variables and keywords
     - increment folder or filename
