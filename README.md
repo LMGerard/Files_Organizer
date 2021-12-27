@@ -1,4 +1,4 @@
-# file_organizer
+# Files Organizer
 
 This app allows you to sort your files.
 
