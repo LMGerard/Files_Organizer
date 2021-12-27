@@ -25,6 +25,7 @@ class _ExtensionsPanelState extends State<ExtensionsPanel> {
   String searchKey = '';
   @override
   Widget build(BuildContext context) {
+    final c = ScrollController();
     return ExpandablePanel(
       header: const Text(
         'Exensions:',
@@ -51,6 +52,7 @@ class _ExtensionsPanelState extends State<ExtensionsPanel> {
             ),
             Expanded(
               child: SingleChildScrollView(
+                controller: c,
                 child: Wrap(
                   spacing: 8,
                   runSpacing: 8,
